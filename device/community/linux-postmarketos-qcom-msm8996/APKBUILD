@@ -21,7 +21,7 @@ makedepends="bison findutils flex installkernel openssl-dev perl"
 
 # Source
 _realname="msm8996-mainline-linux"
-_commit="26207c3a12730baecea584c1df38587940e3164c"
+_commit="d61be5fc5b2f1d3cea6862ddefebd6ee9a460185"
 source="
 	linux-$_commit.tar.gz::$url/-/archive/$_commit/$_realname-$_commit.tar.gz
 	config-$_flavor.$arch
@@ -54,6 +54,6 @@ package() {
 		INSTALL_DTBS_PATH="$pkgdir"/usr/share/dtb
 }
 sha512sums="
-d58499f96184cfa36054475900f2d30e219715f267d1a7ad33afd55f6a5543eb313eb6adf7bf070fc34a8e6d0a7b768dfffd3036ccf03c5c07589d9be9412954  linux-26207c3a12730baecea584c1df38587940e3164c.tar.gz
-fa881d477781be035dc588df6986bedc149835d547b74cfdab7495e982e5c7495769667c89348c2efb1f8680875f93247c70783d8ff7b04dfca9463284e2de22  config-postmarketos-qcom-msm8996.aarch64
+434280d14d9e469c4a97f4bfb7047e37835025f0933baa60318daaa0fe864df461c8c1f24fae47376424adb36b598426aa72e4abdb8cd7f57bccdcaf20d055e3  linux-d61be5fc5b2f1d3cea6862ddefebd6ee9a460185.tar.gz
+e9de2e9b544c6e040b06df1b8ee77b349cd22ad59844af5e96f105b683431ffce15f153d6572392bf4b3b5189e1411e597801fd0c699ad24f0ca3e4494cb9bf5  config-postmarketos-qcom-msm8996.aarch64
 "
